@@ -17,9 +17,9 @@ public class AdvancedBooleanLogic {
      */
     public boolean returnNotBoth(boolean b1, boolean b2){
         if (b1&&b2)
-            return true;
-        else
             return false;
+        else
+            return true;
     }
     /**
      * b1 OR b2, BUT NOT BOTH
